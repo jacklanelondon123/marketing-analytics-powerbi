@@ -1,0 +1,14 @@
+Group,Name,Type,Min,Max,Step,EnumValues,Default
+Structure,SwingLen,int,2,8,1,,4
+Structure,MinDisplacementTicks,int,3,10,1,,6
+Structure,FvgMinTicks,int,1,5,1,,2
+Entry,EntrySource,enum,,,,"FvgMid,FvgEdge,RefinedZone",FvgMid
+Entry,UseFibRefinement,bool,,,,"True,False",True
+Risk,RiskPercent,double,0.25,1.0,0.25,,0.5
+Risk,StopBufferPips,double,1,5,1,,2
+Bias,UseEMA,bool,,,,"True,False",True
+Bias,UseHTFBias,bool,,,,"True,False",True
+Exits,PartialPercent,int,30,70,10,,50
+Exits,BEat1R,bool,,,,"True,False",True
+Exits,TrailSwingLen,int,2,6,1,,3
+Session,UseSessionFilter,bool,,,,"True,False",True
